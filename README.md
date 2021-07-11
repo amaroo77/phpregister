@@ -31,3 +31,13 @@ If you haven't got a local web server set-up, you will need to download and inst
 <p>INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES (1, &#039;test&#039;, &#039;$2y$10$SfhYIDtn.iOuCW7zfoFLuuZHX6lja4lF4XA4JqNmpiH/.P3zB8JCa&#039;, &#039;test@test.com&#039;);</p>
 </code>
 </pre>
+<br>
+<p>On <i>phpMyAdmin</i> this should look like:</p>
+<div class="browser">
+
+<img width="750" height="489" alt="phpMyAdmin Accounts Table" src="https://codeshack.io/web/img/phplogin/phpmyadmin-accounts-table.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+</div>
+
+<p>The above SQL statement code will create the accounts table with the columns <i class="hl">id</i>, <i class="hl">username</i>, <i class="hl">password</i>, and <i class="hl">email</i>.</p>
+
+<p>The SQL statement will insert a test account with the username: <i class="hl">test</i>, and the password: <i class="hl">test</i>. The test account will be used for testing purposes to make sure our login system is functioning correctly.</p>
