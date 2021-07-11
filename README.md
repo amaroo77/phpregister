@@ -1,5 +1,7 @@
 <h1>Secure Register System Using PHP and mySQL.</h1>
 
+<p>you can link this repo with my login system I've created before</p>
+
 <h3>Requirements</h3>
 
 If you haven't got a local web server set-up, you will need to download and install XAMPP. XAMPP is a server-side web development environment that includes the essentials for back-end web developers.
